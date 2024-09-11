@@ -365,7 +365,7 @@
                       <name>${dockerfile.base.image}</name>
                       <alias>${docker.container.name}</alias>
                       <run>
-                        <platform>linux/amd64</platform>
+<!--                        <platform>linux/amd64</platform>-->
                         <containerNamePattern></containerNamePattern>
                         <ports>
                           <port>9008:9008</port>
@@ -438,7 +438,7 @@
       <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>synapse-unit-test-maven-plugin</artifactId>
-        <version>5.2.69-SNAPSHOT</version>
+        <version>5.2.65</version>
         <executions>
           <execution>
             <id>synapse-unit-test</id>
