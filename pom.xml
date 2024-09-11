@@ -462,6 +462,7 @@
     </plugins>
   </build>
   <properties>
+    <mainSequence>MainSequence</mainSequence> 
     <projectType>integration-project</projectType>
     <uuid>cc76a9cb-fae7-4194-ac30-ab59832f6c43</uuid>
     <!-- <archiveLocation>configure a custom target directory for CAPP</archiveLocation> -->
