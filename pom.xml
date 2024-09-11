@@ -366,7 +366,7 @@
                       <alias>${docker.container.name}</alias>
                       <run>
 <!--                        <platform>linux/amd64</platform>-->
-                        <containerNamePattern></containerNamePattern>
+                        <containerNamePattern>${docker.container.name}</containerNamePattern>
                         <ports>
                           <port>9008:9008</port>
                         </ports>
