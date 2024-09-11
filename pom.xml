@@ -362,10 +362,10 @@
                   <autoPull>always</autoPull>
                   <images>
                     <image>
-                      <name>${dockerfile.base.image}</name>
+                      <name>${test.dockerfile.base.image}</name>
                       <alias>${docker.container.name}</alias>
                       <run>
-<!--                        <platform>linux/amd64</platform>-->
+                        <platform>linux/amd64</platform>
                         <containerNamePattern>${docker.container.name}</containerNamePattern>
                         <ports>
                           <port>9008:9008</port>
@@ -471,6 +471,7 @@
     <keystore.alias>wso2carbon</keystore.alias>
     <ciphertool.enable>true</ciphertool.enable>
     <dockerfile.base.image>wso2/wso2mi:4.3.0</dockerfile.base.image>
+    <test.dockerfile.base.image>wso2/wso2mi:4.2.0</test.dockerfile.base.image>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.scm.id>integration-project</project.scm.id>
